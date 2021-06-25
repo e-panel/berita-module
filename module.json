@@ -1,0 +1,16 @@
+{
+    "name": "Berita",
+    "alias": "berita",
+    "description": "Module Berita untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Berita\\Providers\\BeritaServiceProvider"
+    ],
+    "aliases": {
+        "KategoriBerita": "Modules\\Berita\\Entities\\Kategori", 
+        "Berita": "Modules\\Berita\\Entities\\Berita"
+    },
+    "files": [],
+    "requires": []
+}
